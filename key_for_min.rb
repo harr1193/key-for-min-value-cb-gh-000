@@ -3,6 +3,6 @@
 
 def key_for_min_value(name_hash)
   min_key = ""
-  name_hash.collect { |key, value| min_key << key if min_key.empty? || key < min_key
+  name_hash.collect { |key, value| min_key = key if min_key.empty? || key < min_key
    }
 end
